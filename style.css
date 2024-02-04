@@ -16,7 +16,7 @@ header, main {
 }
 
 main {
-    /* No need to set text-align here unless you want a different alignment inside main */
+    max-width: 1200px;
 }
 
 img#cookie-image {
