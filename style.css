@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body takes full viewport height */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Keep text center aligned for overall consistency */
+    flex-direction: column;
+}
+
+header, main {
+    width: 80%; /* Adjust width as per requirement */
+    max-width: 600px; /* Maximum width of the content area */
+}
+
+main {
+    /* No need to set text-align here unless you want a different alignment inside main */
+}
+
+img#cookie-image {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto;
+    margin: 20px 0; /* Adds space around the image */
+}
+
+ul {
+    text-align: left; /* Align list items text to the left */
+    display: inline-block; /* Align the list itself to the center of its container */
+    margin: 0 auto; /* Center the list in the available space */
+}
+
+/* Ensures the body flex container fills the entire height of the viewport */
+html {
+    height: 100%;
+}

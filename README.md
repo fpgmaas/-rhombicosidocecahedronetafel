@@ -1,1 +1,1 @@
-# -rhombicosidocecahedronetafel
+# Rhombicosidocecahedrone tafel
